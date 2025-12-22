@@ -9,7 +9,7 @@ const getMockingPets = (req, res) => {
 };
 
 const getMockingUsers = async (req, res) => {
-  // Consigna: 50 usuarios
+  
   const users = await generateUsers(50);
   res.json({ status: "success", payload: users });
 };
