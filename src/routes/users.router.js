@@ -1,11 +1,8 @@
 const { Router } = require("express");
-const User = require("../models/user.model");
+const { getUsers } = require("../controllers/users.controller");
 
 const router = Router();
 
-router.get("/", async (req, res) => {
-  const users = await User.find().lean();
-  res.json({ status: "success", payload: users });
-});
+router.get("/", getUsers);
 
 module.exports = router;
