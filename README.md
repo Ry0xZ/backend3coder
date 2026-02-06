@@ -1,4 +1,5 @@
 # Backend - Entrega Final
+Proyecto backend desarrollado en Node.js y Express, con MongoDB, tests funcionales, documentación con Swagger y dockerización completa.
 
 ## Docker Image
 https://hub.docker.com/r/ry0xz/backend-final
@@ -11,5 +12,5 @@ https://hub.docker.com/r/ry0xz/backend-final
 
 ## Run con Docker (usando imagen de Dockerhub)
 1) Descargar imagen:
-```bash
+
 docker pull ry0xz/backend-final:latest
